@@ -1,0 +1,38 @@
+.ellipse{
+    height: 400px;
+    width: 600px;
+    border-radius: 290px 290px 0 0;
+    background-color: gray;
+}
+
+.hd-footer{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 42px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.txt-footer{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+
+.img-footer{
+    height: 400px;
+    width: 100%;
+    border-radius: 200px;
+    filter: grayscale(1);
+}
+
+.img-footer:hover{
+    filter: grayscale(0);
+}
+
+.grid-foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

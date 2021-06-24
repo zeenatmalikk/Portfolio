@@ -1,0 +1,45 @@
+.img-ser {
+    width: 100%;
+}
+
+.txt {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.txt-desc {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-size: 19px;
+    margin: 5;
+    padding: 5;
+    text-align: center;
+}
+
+
+.services{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 42px;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    margin-right:9%;
+}
+
+.desc-ser{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400    ;
+   
+}
+
+.center-ser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;text-align: justify;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}

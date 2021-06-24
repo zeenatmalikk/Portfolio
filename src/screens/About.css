@@ -1,0 +1,34 @@
+.head{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 42px;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}
+
+.desc-abt{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 18px;
+font-weight: 400;
+word-spacing: 4px;
+letter-spacing: 2px;
+}
+
+.abt-img{
+    width: 100%;
+  filter: grayscale(1);
+    height: 500px;
+    /* border: 20px solid white; */
+    margin-top: 20px;
+}
+
+.abt-img:hover{
+    filter: grayscale(0);
+    transition: 0.3s ease-in-out;
+}
+
+.cv{
+    text-decoration: none;
+    color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+}

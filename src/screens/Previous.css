@@ -1,0 +1,12 @@
+.heading-prev{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 42px;
+    word-spacing: 4px;
+    text-align: center;
+}
+
+.images{
+    width: 90%;
+    margin:20px;
+    height: 200px;
+}
