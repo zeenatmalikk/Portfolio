@@ -54,6 +54,18 @@ const Previous = () => {
                 </Grid>
            ))}
         </Grid>
+        {/* <div className='container'>
+          <div className='text-prev'>
+            <h4>Porsche</h4>
+            <p>
+              Lorem Ipsum Dolor 
+              Lorem Ipsum Dolor 
+              Lorem Ipsum Dolor  
+            </p>
+          </div>
+          <div className='imag one'></div>
+          <div className='imag two'></div>
+        </div> */}
       </Container>
     </div>
   );

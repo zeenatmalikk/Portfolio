@@ -10,17 +10,17 @@ const Navbar = () => {
           <Container>
             <Grid container>
               <Grid item md={3} xs={0} />
-              <Grid item md={2} xs={2} className='center'>
+              <Grid item md={2} xs={4} className='center'>
                 <Link to="/" style={{ color: "#000", textDecoration: "none" }}>
                   <h5 className="home">Home</h5>
                 </Link>
               </Grid>
-              <Grid item md={2} xs={2} className='center'>
-                <Link to="/about" style={{ color: "#000", textDecoration: "none" }}>
-                  <h5 className="home">About</h5>
+              <Grid item md={2} xs={4} className='center'>
+                <Link  to="/previouspage" style={{ color: "#000", textDecoration: "none" }}>
+                  <h5 className="home">Previous Projects</h5>
                 </Link>
               </Grid>
-              <Grid item md={2} xs={2} className='center'>
+              <Grid item md={2} xs={4} className='center'>
                 <Link to="/contact" style={{ color: "#000", textDecoration: "none" }}>
                   <h5 className="home">Contact</h5>
                 </Link>

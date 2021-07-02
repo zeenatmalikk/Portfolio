@@ -4,6 +4,7 @@ import "./header.css";
 import Typed from "react-typed";
 import Fade from "react-reveal/Fade";
 import { ArrowForward } from "@material-ui/icons";
+import {Link} from 'react-router-dom'
 const useStyles = makeStyles(() => ({
   btn: {
     backgroundColor: "#fff",
@@ -16,12 +17,18 @@ const useStyles = makeStyles(() => ({
         transition:'0.4s ease-in-out'
     }
   },
+  link:{
+    textDecoration:'none'
+  },
+  typ:{
+   color:'whitesmoke'
+  }
 }));
 
 const Header = () => {
   const classes = useStyles();
   return (
-    <div style={{ paddingTop: "5%",  }}>
+    <div style={{ paddingTop: "5%",  }} id='home'>
       <Fade bottom>
          
         <Container style={{padding:0}}>
@@ -49,8 +56,14 @@ const Header = () => {
             >
               <div>
                 <h2 className="myname">
-                  <Typed strings={["I Am M Zeenat"]} typeSpeed={60}></Typed>
+                  <Typed className={classes.typ} strings={["I Am M Zeenat"]} typeSpeed={60}></Typed>
                 </h2>
+                {/* <h2>
+                  <span className='half'>H</span>
+                  <span>H</span>
+                  <span>H</span>
+
+                </h2> */}
                 <h3 className="descname">
                   I'm a{" "}
                   <Typed
@@ -65,13 +78,17 @@ const Header = () => {
                 </h5>
               </div>
               <div className="social">
+                <Link to='/hireme' className={classes.link}>
                 <Button
                   className={classes.btn}
                 //   variant="contained"
                   fullWidth
+                  
                 >
+                  
                   Hire Me <ArrowForward/>
                 </Button>
+                </Link>
               </div>
             </Grid>
           </Grid>

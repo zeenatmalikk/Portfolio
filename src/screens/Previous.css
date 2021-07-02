@@ -10,3 +10,57 @@
     margin:20px;
     height: 200px;
 }
+
+/* .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imag {
+  width: 250px;
+  height: 250px;
+  transition: 0.3s;
+}
+.one{
+    background: url("https://cdn.dribbble.com/users/899296/screenshots/15183372/media/b4d7eff0cd845c23c2693b701dee4b6e.png?compress=1&resize=1600x1200") center / cover;
+    z-index: -1;
+    transform: translateX(125px);
+    clip-path: polygon(50% 0, 65% 50%, 50% 100%, 0% 100%, 0 50%, 0 0);
+}
+
+.two{
+    background: url("https://cdn.dribbble.com/users/899296/screenshots/15183372/media/b4d7eff0cd845c23c2693b701dee4b6e.png?compress=1&resize=1600x1200") center / cover;
+    transform: translateX(-125px);
+    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 50% 100%, 65% 50%, 50% );
+}
+
+.text-prev{
+  margin-right: -35%;
+  margin-top: -25%;
+  width: 0;
+  height: 150px;
+  background-color: white;
+  transition: 1s ease;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+  padding: 1rem .5rem;
+  
+}
+
+.text-prev p{
+    color: #bfbfbf;
+    margin: .5rem 0;
+}
+
+.container :hover .one{
+    transform: translateX(100px);
+}
+.container:hover .two{
+    transform: translateX(-100px);
+
+}
+
+.container:hover .text-prev{
+    width: 280px;
+} */

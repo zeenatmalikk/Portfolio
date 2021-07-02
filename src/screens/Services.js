@@ -43,8 +43,8 @@ const Services = () => {
                 />
               </CardMedia>
               <CardContent>
-                <h4 className="txt"> Web development </h4>
-                <h6 className="txt-desc"> HTML / CSS </h6>
+                <h4 className="txt"> HTML / CSS </h4>
+                <h6 className="txt-desc"> Web development </h6>
               </CardContent>
             </Card>
           </Grid>
@@ -74,8 +74,8 @@ const Services = () => {
                 />
               </CardMedia>
               <CardContent>
-                <h4 className="txt"> Web development </h4>
-                <h6 className="txt-desc"> MERN stack </h6>
+                <h4 className="txt"> MERN Stack </h4>
+                <h6 className="txt-desc"> Web development </h6>
               </CardContent>
             </Card>
           </Grid>

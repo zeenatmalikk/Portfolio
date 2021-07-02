@@ -33,7 +33,7 @@ const Review = () => {
   return (
     <div>
       <Container>
-        <Grid container>
+        {<Grid container>
           <Grid item md={4} xs={12} style={{ width: "100%" }}>
             <h2 className="hd-rev">Feedback form</h2>
             <TextField
@@ -47,7 +47,7 @@ const Review = () => {
                 color: "#000",
                 borderRadius: "10px",
                 outline: "none",
-                margin: 20,
+                margin:10
               }}
             />
             <TextField
@@ -61,7 +61,7 @@ const Review = () => {
                 color: "#000",
                 borderRadius: "10px",
                 outline: "none",
-                margin: 20,
+                margin:10
               }}
             />
             <TextField
@@ -75,7 +75,7 @@ const Review = () => {
                 color: "#000",
                 borderRadius: "10px",
                 outline: "none",
-                margin: 20,
+                margin:10
               }}
             />
             <Button
@@ -89,7 +89,7 @@ const Review = () => {
             </Button>
           </Grid>
         </Grid>
-      </Container>
+}      </Container>
     </div>
   );
 };
